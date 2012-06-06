@@ -8,7 +8,11 @@ Optionally, you can specify required intensity or spot windows (i.e., number of 
 
 There is a simple Java API as well as a GUI developed using JavaFX.
 
-==== DEPENDENCIES
+==== REQUIREMENTS
 
-Requires Java 6 or greater.
+  * Java 6 or greater.
+  * The following Oracle drivers [http://www.oracle.com/technetwork/database/enterprise-edition/jdbc101040-094982.html]
+    - ojdbc14.jar 
+    - ocrs12.jar
+    - orai18n.jar
 
