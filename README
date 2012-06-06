@@ -1,0 +1,14 @@
+==== DESCRIPTION
+
+Uses T2Util to get information from specified 4700/4800 MALDI TOF/TOF mass spectrometer (using IP address). Using MS peak list, looks for peaks of specified mass difference (e.g., 112 Da) to infer potential crosslink candidates. Outputs an inclusion list than can be used to run MS-MS. 
+
+Note that this is not a cross-linked peptide validation tool, but rather a way to find potential crosslink candidates. 
+
+Optionally, you can specify required intensity or spot windows (i.e., number of consecutive spots from which to include the most intense peak pairs if same masses).
+
+There is a simple Java API as well as a GUI developed using JavaFX.
+
+==== DEPENDENCIES
+
+Requires Java 6 or greater.
+
